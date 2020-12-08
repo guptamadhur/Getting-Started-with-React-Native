@@ -9,8 +9,8 @@ const CounterScreen = () => {
       <Button
         title="Increase"
         onPress={() => {
-          // Don't do this!
-          // counter++;
+          /* Don't do this!
+          counter++; */
           setCounter(counter + 1);
         }}
       />

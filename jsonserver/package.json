@@ -1,16 +1,31 @@
 {
   "name": "jsonserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Native Server",
   "main": "index.js",
   "scripts": {
     "db": "json-server -w db.json",
     "tunnel": "ngrok http 3000"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Madhur Gupta",
+  "license": "MIT",
   "dependencies": {
-    "json-server": "^0.15.0",
-    "ngrok": "^3.2.3"
-  }
+    "json-server": "^0.16.3",
+    "ngrok": "^3.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guptamadhur/Getting-Started-with-React-Native.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Json",
+    "Server"
+  ],
+  "bugs": {
+    "url": "https://github.com/guptamadhur/Getting-Started-with-React-Native/issues"
+  },
+  "homepage": "https://github.com/guptamadhur/Getting-Started-with-React-Native#readme"
 }

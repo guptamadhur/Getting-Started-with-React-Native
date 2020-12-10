@@ -1,7 +1,7 @@
 {
   "blogposts": [
     {
-      "title": "API POST #11111111",
+      "title": "API POST #",
       "content": "content for my post",
       "id": 1
     },
@@ -16,8 +16,8 @@
       "id": 3
     },
     {
-      "title": "Updated blog post #4",
-      "content": "Alskdjlkdf",
+      "title": "Updated blog post",
+      "content": "Real World!",
       "id": 4
     }
   ]

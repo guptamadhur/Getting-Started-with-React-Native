@@ -1,20 +1,32 @@
 {
   "name": "track-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "React native",
   "main": "index.js",
   "scripts": {
+    "host": "ngrok http 3000",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Madhur Gupta",
+  "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.6.6",
-    "nodemon": "^1.19.1"
-  }
+    "mongoose": "^5.11.6",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "ngrok": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guptamadhur/Getting-Started-with-React-Native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guptamadhur/Getting-Started-with-React-Native/issues"
+  },
+  "homepage": "https://github.com/guptamadhur/Getting-Started-with-React-Native#readme"
 }

@@ -8,16 +8,17 @@ const trackRoutes = require('./routes/trackRoutes');
 const requireAuth = require('./middlewares/requireAuth');
 
 const app = express();
-
-app.use(bodyParser.json());
+app.use(express.json())
+//app.use(bodyParser.json());
 app.use(authRoutes);
 app.use(trackRoutes);
 
-const mongoUri =
-  'mongodb+srv://admin:passwordpassword@cluster0-8fzga.mongodb.net/test?retryWrites=true&w=majority';
+const mongoUri = 'mongodb+srv://madhurgupta:user1234@cluster0.d8exa.mongodb.net/login?retryWrites=true&w=majority';
+//const mongoUri = 'mongodb+srv://admin:passwordpassword@cluster0-8fzga.mongodb.net/test?retryWrites=true&w=majority';
 mongoose.connect(mongoUri, {
   useNewUrlParser: true,
-  useCreateIndex: true
+  useCreateIndex: true,
+  useUnifiedTopology: true
 });
 mongoose.connection.on('connected', () => {
   console.log('Connected to mongo instance');
